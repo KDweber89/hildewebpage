@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+/*body {
+	position: relative;
+	background-size: 10%;
+	height: 100v
+	h;
+	width: 100vw;
+	z-index: -2;
+	box-sizing: border-box;
+	display: inline-block;
+}*/
+
+.intro{
+  position: relative;
+  margin: auto;
+  top: 4em;
+  background-color: tan;
+  height: 5em;
+  width: 75%;
+  text-align: center;
+  vertical-align: bottom;
+  opacity: .7;
+}
+
+.intro h2 {
+	padding-top: 1.25em;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.5em;
+}
+
+.test{
+	position:relative;
+    width:100vw;
+    margin: 0 auto;
+}
+
+
+.box{
+	height: 65vh;
+	width: 100vw;
+	/*background-color: red;*/
+	margin: 5em auto 0 auto;
+}
+
+
+.container{
+	/*margin-bottom: 5em;*/
+	background-image: url(images/background/background.jpg);
+	background-size: contain;
+	/*background-size: cover !important;*/
+	/*background-size: 50%;*/
+	/*background-size: cover;*/
+    background-position: center;
+	margin: auto;
+	height: 70vh;
+	width: 100vw;
+	z-index: 1;
+	background-repeat: no-repeat;
+	box-sizing: border-box;	
+	position:relative;
+}
+
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	z-index: 50;
+	display: inline-block;
+    position:relative;
+}
+
+
+ .circle1{
+	left: 77.5em;
+	top: 24em;
+	display: none;
+}
+
+ .circle2{
+	left: 42em;
+	top: 12.5em;
+	display: none;
+}
+
+ .circle3{
+	left: 59.75em;
+	top: 10.35em;
+	display: none;
+}
+
+ .circle4{
+	left: 44em;
+	top: 11em;
+	display: none;
+}
+
+.circle5{
+	left: 50em;
+	top: 31em;
+	display: none;
+}
+
+/*This is for the introductory picture, up in the top right. */
+
+
+/*.pleasure {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/pleasure&entertainment/postkartewonderland.jpg);
+	background-size: 100%;
+	height: 15vh;
+	width: 35vh;
+	background-color: red;
+	margin-top: 4em;
+	margin-left: 58em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}*/
+
+/*.test{
+	margin: 0;
+	height: 50vh;
+	width: 50vw;
+}*/
+
+
+
+/*.pleasure:hover{
+	opacity: .75;
+}*/
+
+/*.pleasureinfo {
+	position: absolute;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 1;
+}*/
+
+
+/*This is for the dance picture, positioned near the crux of the mississippi near St. Paul MN. */
+
+
+
+
+
+/*.dance {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/socialdance/modernismandsocialdance.jpg);
+	background-size: 100%;
+	height: 10vh;
+	width: 20vh;
+	background-color: red;
+	margin-top: 40em;
+	margin-left: 85em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}
+
+.dance:hover{
+	opacity: .75;
+}*/
+
+/*.danceinfo {
+	position: relative;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+}*/
+
+
+/*.metro {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/mobility/metrotransit.jpg);
+	background-size: 100%;
+	height: 10vh;
+	width: 20vh;
+	background-color: red;
+	margin-top: 17em;
+	margin-left: 20em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}
+
+.metro:hover{
+	opacity: .75;
+}*/
+
+/*.metroinfo {
+	position: relative;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+}*/
+
+
+/*This one is where the state fair one is supposed to go*/
+
+/*.statefair {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/statefair/postcard1910.jpg);
+	background-size: 100%;
+	height: 10vh;
+	width: 20vh;
+	background-color: red;
+	margin-top: 17em;
+	margin-left: 60em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}
+
+.metro:hover{
+	opacity: .75;
+}*/
+
+/*.metroinfo {
+	position: relative;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+}*/
+
+
+
+/*.stanthonymain {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/stanthonymain/stanthony.jpg);
+	background-size: 100%;
+	height: 10vh;
+	width: 20vh;
+	background-color: red;
+	margin-top: 25em;
+	margin-left: 40em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}
+
+.stanthonymain:hover{
+	opacity: .75;
+}
+*/
+/*.stanthonymaininfo {
+	position: relative;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+}*/
+
+
+
+
+/*.theatersandcinimas {
+	position: absolute;
+	display: inline-block;
+	background-image: url(images/theatersandcinimas/statetheatre.jpg);
+	background-size: 100%;
+	height: 10vh;
+	width: 20vh;
+	background-color: red;
+	margin-top: 50em;
+	margin-left: 40em;
+	border-style: solid;
+	border-color: black;
+	border-width: .25em;
+	z-index: 2;
+}
+
+.theatersandcinimas:hover{
+	opacity: .75;
+}*/
+
+/*.theatersandcinimasinfo {
+	position: relative;
+	height: 15vh;
+	width: 35vh;
+	background-color: tan;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+}*/
