@@ -3,13 +3,6 @@
 
 
 $(document).ready(function(){
-    /*$("#star").mouseenter(function(){
-        $(".circle").fadeIn();
-    });
-    $("#star").mouseleave(function(){
-        $(".circle").fadeOut();
-    });*/
-
     $("#star1").mouseenter(function(){
         $(".circle1").fadeIn();
     });
