@@ -46,13 +46,17 @@
 	/*background-size: 50%;*/
 	/*background-size: cover;*/
     background-position: center;
+    position: absolute;
 	margin: auto;
-	height: 70vh;
-	width: 100vw;
+	margin-left: 20%;
 	z-index: 1;
+	height: 50em;
+	width: 70em;
 	background-repeat: no-repeat;
-	box-sizing: border-box;	
-	position:relative;
+	/*box-sizing: border-box;*/	
+	/*position:relative;*/
+	/*height: 70vh;
+	width: 100vw;*/
 }
 
 
@@ -70,33 +74,53 @@
 
 
  .circle1{
-	left: 77.5em;
-	top: 24em;
+	left: 65%;
+	top: 60%;
 	display: none;
 }
 
  .circle2{
-	left: 42em;
-	top: 12.5em;
+	left: 35%;
+	top: 33%;
 	display: none;
 }
 
  .circle3{
-	left: 59.75em;
-	top: 10.35em;
+	left: 49.55%;
+	top: 25.5%;
 	display: none;
 }
 
  .circle4{
-	left: 44em;
-	top: 11em;
+	left: 36%;
+	top: 26%;
 	display: none;
 }
 
 .circle5{
-	left: 50em;
-	top: 31em;
+	left: 41%;
+	top: 77.5%;
 	display: none;
 }
 
 
+
+
+
+
+@media (max-width: 800px){
+.container{
+	height: 30vh;
+	width: 50vw;
+}
+
+.intro h2 {
+	padding-top: .4em;
+	font-size: 1em;
+}
+
+.intro h3 {
+	font-size: .75em;	
+}
+
+}
