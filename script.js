@@ -1,8 +1,7 @@
-//ok......this is the hard stuff.....but you can do it!!!!!
-
-
-
 $(document).ready(function(){
+
+    setProperHeights();
+
     $("#star1").mouseenter(function(){
         $(".circle1").fadeIn();
     });
@@ -37,6 +36,20 @@ $(document).ready(function(){
     $("#star5").mouseleave(function(){
         $(".circle5").fadeOut();
     });
-
 });
+
+$(window).resize(function(){
+    this.setProperHeights();
+});
+
+function setProperHeights() {
+    var headerHeight = $('.header').height();
+    var newHeight = $(window).height() - $('.header').height() + "px" ;
+    console.log("Setting new height to " + newHeight + " (header height is " + headerHeight + ")");
+
+    $('.map-container').height(newHeight);
+
+
+    $('.map').width($('.map').height() * 1897 / 1150);
+}
 
