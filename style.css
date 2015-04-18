@@ -47,16 +47,46 @@ body {
 }*/
 
 .menu-view div.thumb {
-    background-size: cover;
     width: 100%;
     height: 100%;
     display: block;
     position: absolute;
-    background-size: 100%;
 }
 
 #thumb1 {
     background: url('mainpics/postkartewonderland.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#thumb2 {
+    background: url('mainpics/stanthony.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#thumb3 {
+    background: url('mainpics/modernismandsocialdance.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#thumb4 {
+    background: url('mainpics/metrotransit.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#thumb5 {
+    background: url('mainpics/postcard1910.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#thumb6 {
+    background: url('mainpics/statetheatre.jpg');
+    background-size: cover;
+    background-position: center; 
 }
 
 .menu-view .pleasure {
