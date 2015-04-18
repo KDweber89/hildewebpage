@@ -38,6 +38,26 @@ body {
     text-align: center;
 }
 
+/*.menu-view img {
+    display: block;
+    position: absolute;
+    background-size: 100%;
+    height: 130%;
+    width: auto;
+}*/
+
+.menu-view div.thumb {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-size: 100%;
+}
+
+#thumb1 {
+    background: url('mainpics/postkartewonderland.jpg');
+}
 
 .menu-view .pleasure {
     width: 100%;
@@ -47,14 +67,6 @@ body {
     overflow: hidden;
     top: 0;
     left: 0;
-}
-
-.menu-view img {
-    display: block;
-    position: absolute;
-    background-size: 100%;
-    height: 130%;
-    width: auto;
 }
 
 .menu-view h2 {
