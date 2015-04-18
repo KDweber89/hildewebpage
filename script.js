@@ -50,6 +50,16 @@ function setProperHeights() {
     $('.map-container').height(newHeight);
 
 
-    $('.map').width($('.map').height() * 1897 / 1150);
+    
+    // $('.map').width($('.map').height() * 1897 / 1150);
+
+
+    if (($('.map-container').height() * 1897 / 1150) > $('.map-container').width()) {
+        $('.map').height($('.map').width() * 1150 / 1897 + "px");
+        $('.map').width("100%");
+    } else {
+        $('.map').width($('.map').height() * 1897 / 1150 + "px");
+        $('.map').height("100%");
+    }
 }
 
