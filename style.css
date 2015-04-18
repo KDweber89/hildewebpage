@@ -162,9 +162,9 @@ body {
     width: 25px;
     height: 25px;
     background: red;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    -moz-border-radius: 12.5px;
+    -webkit-border-radius: 12.5px;
+    border-radius: 12.5px;
     z-index: 50;
     position: absolute;
     display: none;
