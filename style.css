@@ -124,6 +124,7 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
+    margin: 2px 0px;
     background: #000;
     color: #fff;
     text-transform: uppercase;
@@ -202,8 +203,50 @@ body {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .menu-view h2 {
+        font-size: 17px;
+        padding: 5px;
+        margin: 5px 0 0 0;
+    }
+
+    .menu-view p {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .menu-view a.info {
+        padding: 4px 6px;
+        -webkit-box-shadow: 0 0 1px #000;
+        -moz-box-shadow: 0 0 1px #000;
+        box-shadow: 0 0 1px #000;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .menu-view h2 {
+        font-size: 15px;
+        padding: 5px;
+        margin: 0px 0 0 0;
+    }
+
+    .menu-view p {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .menu-view a.info {
+        padding: 4px 6px;
+        -webkit-box-shadow: 0 0 1px #000;
+        -moz-box-shadow: 0 0 1px #000;
+        box-shadow: 0 0 1px #000;
+    }
+}
+
 @media screen and (max-width: 500px) {
-	.mobile-message {
-		display: block;
-	}
+    .mobile-message {
+        display: block;
+    }
 }
