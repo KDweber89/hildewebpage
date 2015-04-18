@@ -124,37 +124,33 @@ body {
     z-index: 50;
     display: inline-block;
     position: relative;
+    display: none;
 }
 
 
 .circle1 {
     left: 77%;
-    top: 60%;
-    display: none;
+    top: 61%;
 }
 
  .circle2 {
     left: 22%;
-    top: 35%;
-    display: none;
+    top: 32%;
 }
 
  .circle3 {
-    left: 49.55%;
-    top: 29.5%;
-    display: none;
+    left: 49.45%;
+    top: 26%;
 }
 
  .circle4 {
     left: 25%;
-    top: 30%;
-    display: none;
+    top: 26.5%;
 }
 
 .circle5 {
-    left: 34%;
-    top: 74%;
-    display: none;
+    left: 33%;
+    top: 74.5%;
 }
 
 .mobile-message {
